@@ -99,7 +99,7 @@
         background-color: var(--cor4);
     }
     header.mobile-versao-2 > .blue > h1{
-        padding-top: 15px;
+        padding-top: 10px;
         text-align: center;
         font-size:25px;
         font-family: var(--fonte-titulo);
@@ -119,9 +119,19 @@
     .texto-pequeno > h3:hover{
         cursor: pointer;
     }
+    .cartao-site img{
+        width: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
 
 @media screen and (max-width: 350px){
+    .foto-minha > picture > img{
+        padding: 5px;
+        padding-left: 8px;
+        width: 100px;
+    }
     .botao-dois .des-js{
         width: 95px;
         margin: auto;
@@ -137,5 +147,11 @@
         padding: 8px;
         border-radius: 10px;
         margin: 2px;
+        margin-bottom: 8px;
+    }
+    .cartao-site img{
+        width: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
