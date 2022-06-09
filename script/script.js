@@ -3,7 +3,7 @@ function site1(){
 }
 
 function site2(){
-    alert("O site Giofter foi desenvolvido com a função de tesztar meus conhecimentos com o uso do background-image com atributos de posicionamento e fixação.");
+    alert("O site Giofter foi desenvolvido com a função de testar meus conhecimentos com o uso do background-image com atributos de posicionamento e fixação.");
 }
 
 function site3(){
